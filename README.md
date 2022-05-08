@@ -4,11 +4,9 @@ Guidance intended to suggest how Filecoin Storage Providers should approach sust
 
 
 
-\#Introduction
+#Introduction
 
-
-
-The United Nations Environmental Programme's 2021 Emissions Gap Report highlights that climate change is no longer a future problem. It is a 'now' problem. The Intergovernmental Panel on Climate Change (IPCC) Sixth Assessment Report (AR6) further demonstrates that many of the extreme weather events experienced around the world today can be attributed to the build-up of anthropogenic greenhouse gas (GHG) emissions in the atmosphere.
+The [United Nations Environmental Programme's 2021 Emissions Gap Report](https://www.unep.org/resources/emissions-gap-report-2021) highlights that climate change is no longer a future problem. It is a 'now' problem. The [Intergovernmental Panel on Climate Change (IPCC) Sixth Assessment Report (AR6)](https://www.ipcc.ch/assessment-report/ar6/) further demonstrates that many of the extreme weather events experienced around the world today can be attributed to the build-up of anthropogenic greenhouse gas (GHG) emissions in the atmosphere.
 
 Considered a “code red for humanity” by the United Nations Secretary-General, the IPCC AR6 report documents that unless there are immediate, rapid and large-scale reductions in global GHG emissions, limiting warming to 1.5°C or even 2°C by the end of the century will be beyond reach.
 
