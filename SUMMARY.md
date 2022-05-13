@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Green\_Guidance](README.md)
+* [Storage Providers Green Guidance Documentation](README.md)
   * [Introduction](readme/introduction.md)
   * [Filecoin Green](readme/filecoin-green.md)
   * [Filecoin Green Pledge](readme/filecoin-green-pledge.md)
