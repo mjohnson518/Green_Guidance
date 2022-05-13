@@ -66,24 +66,52 @@ In order to comply with the FGP, Storage Providers can make Sustainability claim
 
 
 
-1. **<span style="text-decoration:underline;">Bronze Tier</span>**: SPs should report approximate location, water usage, and energy consumption data to the [Filecoin Green Reporting Portal](#bookmark=id.a3kb9cl12p8l) for auditing, calculate their emissions profile according to the market-based attributional carbon accounting approach, and should ethier: \
+1. **<span style="text-decoration:underline;">Bronze Tier</span>**: SPs should report approximate location, water usage, and energy consumption data to the [Filecoin Green Reporting Portal](#bookmark=id.a3kb9cl12p8l) for auditing, calculate their emissions profile according to the market-based attributional carbon accounting approach, and should ethier: 
 
     1. match their energy consumption profile to Energy Attribution Credits (EACs) **<span style="text-decoration:underline;">on a annual basis</span>**, or \
 
     2. Provide evidence of green electricity products from their energy supplier (e.g. Green Tariffs) \
 
-2. **<span style="text-decoration:underline;">Silver Tier:</span>** SPs should report approximate location, water usage, granular energy consumption data, hardware set-up to the [Filecoin Green Reporting Portal](#bookmark=id.a3kb9cl12p8l) for auditing, calculate their emissions profile according to the market-based attributional carbon accounting approach, and should match their energy consumption profile to EACs or GCs **<span style="text-decoration:underline;">on a quarterly basis</span>**. \
+2. **<span style="text-decoration:underline;">Silver Tier:</span>** SPs should report approximate location, water usage, granular energy consumption data, hardware set-up to the [Filecoin Green Reporting Portal](#bookmark=id.a3kb9cl12p8l) for auditing, calculate their emissions profile according to the market-based attributional carbon accounting approach, and should match their energy consumption profile to EACs or GCs **<span style="text-decoration:underline;">on a quarterly basis</span>**. 
 
     3. <span style="text-decoration:underline;">Embodied Emissions</span>: Match hardware embodied emissions to high-quality carbon credits (removals or offsets).
-3. **<span style="text-decoration:underline;">Gold Tier:</span>** SPs should report approximate location, water usage, granular energy consumption data, hardware set-up to the [Filecoin Green Reporting Portal](#bookmark=id.a3kb9cl12p8l) for auditing, calculate their emissions profile according to the consequential carbon accounting approach, and every unit of electricity used (MWh) must be accounted for by one of the following: \
+3. **<span style="text-decoration:underline;">Gold Tier:</span>** SPs should report approximate location, water usage, granular energy consumption data, hardware set-up to the [Filecoin Green Reporting Portal](#bookmark=id.a3kb9cl12p8l) for auditing, calculate their emissions profile according to the consequential carbon accounting approach, and every unit of electricity used (MWh) must be accounted for by one of the following: 
 
-    4. Onsite renewable energy generation, in which meter data is provided showing that consumption is matched by onsite generation on a 1-to-1 basis. \
+    4. Onsite renewable energy generation, in which meter data is provided showing that consumption is matched by onsite generation on a 1-to-1 basis. 
 
     5. For consumption not matched by renewable onsite generation, emissions due to grid draw must be matched to avoided emissions accounted for by GCs, with a temporal resolution of one hour, obtained either through:
         1. Power Purchase Agreements (PPAs) for new generation
-        2. GCs sold on the open market \
+        2. GCs sold on the open market 
 
     1. <span style="text-decoration:underline;">Embodied Emissions</span>: Match hardware embodied emissions to high-quality carbon credits (removals or offsets).
 
 Additional details on these three Tiers are provided in [Annex 2: Details on Storage Provider’s Tiered Sustainability Claims](#bookmark=id.j4nowpnymgs7). The information that follows is meant to inform Filecoin Storage Providers how to account for and report GHG emissions and electricity consumption, and how to make decisions about the procurement of renewable energy.
+
+## Storage Providers Sustainability Criteria
+
+The criteria and procedures specified here are intended to define (1) what constitutes a comprehensive carbon accounting exercise (covering Scopes 1, 2, & 3), and (2) how to source renewable electricity for the purposes of environmental disclosures or ESG reporting mechanisms. 
+
+The contents herein draw inspiration from the [Crypto Climate Accord’s Carbon Accounting Guidance Documentation](https://cryptoclimate.org/wp-content/uploads/2021/12/RMI-CIP-CCA-Guidance-Documentation-Dec15.pdf), the [GHG Protocol Corporate Standards, Mitigation Goal Standard, Corporate Value Chain (Scope 3) Standard](https://ghgprotocol.org/standards), [GHG Protocol: Guidelines for Quantifying GHG Reductions from Grid-connected Projects](https://wriorg.s3.amazonaws.com/s3fs-public/pdf/ghgprotocol-electricity.pdf), [WattTime Emissionality paper](https://energyathaas.files.wordpress.com/2019/04/acdb3-00main.pdf), [SBTi’s Criteria and Recommendations](https://sciencebasedtargets.org/resources/files/SBTi-criteria.pdf), [CDP’s RE100 Documentation on Making Credible Renewable Electricity Usage Claims](https://www.there100.org/sites/re100/files/2020-09/RE100%20Making%20Credible%20Claims.pdf) and [accompanying Technical Criteria](https://www.there100.org/sites/re100/files/2021-03/RE100%20Technical%20criteria%20_for%20website_final.pdf). 
+
+
+### GHG Emissions Accounting
+
+To achieve any credible decarbonization goals, actors must start with a comprehensive carbon accounting exercise, and in order to do so they must have a robust way to measure, track, and report their electricity use and the associated GHG Emissions. 
+
+[Carbon accounting](https://en.wikipedia.org/wiki/Carbon_accounting) is the process by which organizations inventory and audit the greenhouse gasses (GHGs) they generate, including those the organization is directly and indirectly responsible for emitting. This process allows organizations to better understand and manage the climate impacts of their operations, and may be used to inform business strategy and decision-making.
+
+The most widely used approach for carbon accounting is the [Greenhouse Gas Protocol](https://ghgprotocol.org/), a joint initiative by the nonprofits [WRI (World Resources Institute)](https://www.wri.org/) and [WBCSD (World Business Council for Sustainable Development)](https://www.wbcsd.org/). The GHG Protocol defines three “Scopes” of emissions for GHG accounting and reporting purposes: 
+
+
+
+* <span style="text-decoration:underline;">Scope 1</span>:  Direct emissions that result from an organization’s activities, such as fuel combustion from facilities 
+
+* <span style="text-decoration:underline;">Scope 2</span>: Indirect emissions associated with an organization’s activities, often from the generation of purchased electricity consumed by your company
+
+* <span style="text-decoration:underline;">Scope 3</span>: Indirect emissions from an organization’s supply chain (rather that its primary operations), such as embodied emissions in purchased raw materials
+
+In the context of Filecoin, Storage Providers are responsible for the emissions that result from the direct activities of their company (Scope 1), those which result from the generation of purchased electricity consumed by their organization (Scope 2), as well as a portion of the emissions from all other indirect sources of emissions from an organization’s supply chain (Scope 3). 
+
+A major component of these emissions results from the electricity which SPs use to store data and prove that it is stored over time. These emissions are generated from the electricity consumption of their hard disk drives (HDDs) for [Sealing](https://spec.filecoin.io/#section-glossary.seal) data and solid-state drives (SSDs) for [Storing](https://spec.filecoin.io/#section-glossary.storage-miner-actor) data.
+
 
