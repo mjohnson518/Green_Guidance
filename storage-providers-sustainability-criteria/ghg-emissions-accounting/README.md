@@ -6,9 +6,9 @@ To achieve any credible decarbonization goals, actors must start with a comprehe
 
 The most widely used approach for carbon accounting is the [Greenhouse Gas Protocol](https://ghgprotocol.org/), a joint initiative by the nonprofits [WRI (World Resources Institute)](https://www.wri.org/) and [WBCSD (World Business Council for Sustainable Development)](https://www.wbcsd.org/). The GHG Protocol defines three “Scopes” of emissions for GHG accounting and reporting purposes:
 
-* Scope 1: Direct emissions that result from an organization’s activities, such as fuel combustion from facilities
-* Scope 2: Indirect emissions associated with an organization’s activities, often from the generation of purchased electricity consumed by your company
-* Scope 3: Indirect emissions from an organization’s supply chain (rather that its primary operations), such as embodied emissions in purchased raw materials
+* Scope 1: Direct emissions that result from an organization’s activities, such as fuel combustion from facilities.
+* Scope 2: Indirect emissions associated with an organization’s activities, often from the generation of purchased electricity consumed by your company.
+* Scope 3: Indirect emissions from an organization’s supply chain (rather that its primary operations), such as embodied emissions in purchased raw materials.
 
 In the context of Filecoin, Storage Providers are responsible for the emissions that result from the direct activities of their company (Scope 1), those which result from the generation of purchased electricity consumed by their organization (Scope 2), as well as a portion of the emissions from all other indirect sources of emissions from an organization’s supply chain (Scope 3).
 

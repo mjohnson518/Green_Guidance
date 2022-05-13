@@ -1,6 +1,6 @@
 # Filecoin Green Pledge
 
-Moving forward past 2022, to encourage collective decarbonization efforts across the Filecoin network, the Filecoin Green Team has created the Filecoin Green Pledge (FGP), a first of its kind pledge that Filecoin Storage Providers may make to showcase their commitment to sustainability across their global operations. Adhering to the FGP means that Storage Providers are committed to: \\
+Moving forward past 2022, to encourage collective decarbonization efforts across the Filecoin network, the Filecoin Green Team has created the Filecoin Green Pledge (FGP), a first of its kind pledge that Filecoin Storage Providers may make to showcase their commitment to sustainability across their global operations. Adhering to the FGP means that Storage Providers are committed to:&#x20;
 
 * 80% renewable electricity procurement by EOFY\[^1] 2023
 * 100% renewable electricity procurement by EOFY 2025
