@@ -13,5 +13,3 @@ The most widely used approach for carbon accounting is the [Greenhouse Gas Proto
 In the context of Filecoin, Storage Providers are responsible for the emissions that result from the direct activities of their company (Scope 1), those which result from the generation of purchased electricity consumed by their organization (Scope 2), as well as a portion of the emissions from all other indirect sources of emissions from an organization’s supply chain (Scope 3).
 
 A major component of these emissions results from the electricity which SPs use to store data and prove that it is stored over time. These emissions are generated from the electricity consumption of their hard disk drives (HDDs) for [Sealing](https://spec.filecoin.io/#section-glossary.seal) data and solid-state drives (SSDs) for [Storing](https://spec.filecoin.io/#section-glossary.storage-miner-actor) data.
-
-****
