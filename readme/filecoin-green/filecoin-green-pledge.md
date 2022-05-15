@@ -2,9 +2,9 @@
 
 Moving forward past 2022, to encourage collective decarbonization efforts across the Filecoin network, the Filecoin Green Team has created the Filecoin Green Pledge (FGP), a first of its kind pledge that Filecoin Storage Providers may make to showcase their commitment to sustainability across their global operations. Adhering to the FGP means that Storage Providers are committed to:&#x20;
 
-* 80% renewable electricity procurement by EOFY 2023
-* 100% renewable electricity procurement by EOFY 2025
-* Maintaining 100% renewable electricity procurement on a continuous basis from thereon
+* **80% renewable electricity procurement by EOFY 2023**
+* **100% renewable electricity procurement by EOFY 2025**
+* **Maintaining 100% renewable electricity procurement on a continuous basis from thereon**
 
 These percentage thresholds, defined as the portion of renewable electricity over total electricity use, must be _publicly verifiable_, meaning that they must be able to _demonstrate a cryptographic proof of an exclusive claim to use of unique renewable electricity generation_ to meet the threshold percentages of their reported electricity usage, and must apply across all their global operations.
 

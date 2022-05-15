@@ -43,7 +43,7 @@ Below is guidance on the four necessary steps that Storage Providers should perf
 
   * At this point it's worth noting that SPs' should use lower-ranked options only if higher ones are unavailable, and that the most holistic emissions calculation can be achieved by combining the first and second options (Consequential and Market-based).\
 
-  * ****[**Annex 1: Carbon Accounting Methodologies Hierarchy**](../../annex-1-carbon-accounting-methodologies-hierarchy.md) provides an overview of the necessary substeps for determining electricity grid emissions factors based on the three ranked methods.\
+  * ****[**Annex 1: Carbon Accounting Methodologies Hierarchy**](../../additional-resources/annex-1-carbon-accounting-methodologies-hierarchy.md) provides an overview of the necessary substeps for determining electricity grid emissions factors based on the three ranked methods.\
 
 * **Match emissions factors and electricity consumption:** The fourth step in accounting for emissions from SPs' operations is matching the emissions factors to each unit of electricity consumed. This is a straight-forward process, but differs slightly depending on the accounting approach employed.\
 
