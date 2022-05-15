@@ -6,6 +6,6 @@ Filecoin Storage Providers (SPs) would benefit from guidance around how to appro
 
 
 
-**v0.1.1**
+**v1.0.0**
 
 **March, 2022**
