@@ -4,5 +4,5 @@ The following sections provide guidance on how additional reporting requirements
 
 * Water Use
 * Hardware Waste
-* Reporting Periods and Cardence
+* Reporting Periods and Cadence
 

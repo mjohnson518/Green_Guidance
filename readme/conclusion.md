@@ -1,6 +1,6 @@
 # Conclusion
 
-The clock is ticking, and there is no time to wait. The World must take decisive and collective action to decarbonize all forms of economic activity within this decade, or else face an increasingly unstable climate.
+**The clock is ticking, and there is no time to wait**. The World must take _decisive and collective action_ to decarbonize all forms of economic activity within this decade, or else face an increasingly unstable climate.
 
 At Protocol Labs, our mission is to drive breakthroughs in computing to push humanity forward. With Filecoin Green, we are leveraging the unique incentives of crypto-economic systems to drive collective action toward reducing emissions, showcasing industry-wide decarbonization, and creating new demand for clean technologies.
 
