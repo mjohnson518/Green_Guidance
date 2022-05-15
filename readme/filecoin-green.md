@@ -2,7 +2,7 @@
 
 In recognition of this decarbonization imperative, Protocol Labs launched [Filecoin Green](https://green.filecoin.io), an initiative focused on building web3-native monitoring and reporting tools for publicly verifiable environmental claims.
 
-_**Our plan is simple: we are building the tools to measure the environmental impacts of Filecoin and verifiably drive them below zero, building infrastructure along the way that can be leveraged by anyone to make transparent and substantive environmental claims for their own operations.**_
+Our plan is simple: we are building the tools to measure the environmental impacts of Filecoin and verifiably drive them below zero, building infrastructure along the way that can be leveraged by anyone to make transparent and substantive environmental claims for their own operations.
 
 We’re doing this by connecting the entire network to renewable energy, allowing each individual Filecoin Storage Provider to publicly prove their source of electricity. We made Filecoin the world’s most transparent blockchain when it comes to electricity consumption, and built the [filecoin.energy](https://filecoin.energy/) dashboard to raise the bar for energy transparency, allowing anyone to estimate the energy use of any node in the network.
 
@@ -12,4 +12,4 @@ In addition to buying renewable energy from existing projects, in 2021 we [mobil
 
 Lastly, we’re building a substantial grants pipeline to catalyze the development of projects seeking to prove environmental claims in the Web3 industry. And yet, the most exciting thing about all of this is that we’re just getting started. In the calendar year 2022, we have ambitious plans to match storage providers with renewables every hour, allow developers storing data on Filecoin to prove their carbon footprint, and to drive the total emissions of the network below zero.
 
-_**Our goal is to make it as simple as possible for every Filecoin Storage Provider to provably showcase how they are accounting for and reducing the environmental impacts of their operations, laying out a pathway to sustainability for the network.**_
+Our goal is to make it as simple as possible for every Filecoin Storage Provider to provably showcase how they are accounting for and reducing the environmental impacts of their operations, laying out a pathway to sustainability for the network.
