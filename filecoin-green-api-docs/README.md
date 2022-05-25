@@ -4,7 +4,7 @@ description: >-
   need to get up and running with the Filecoin Green APIs.
 ---
 
-# Filecoin Green API Docs
+# ⚙ Filecoin Green API Docs
 
 ## Want to deep dive?
 

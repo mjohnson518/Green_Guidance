@@ -1,4 +1,4 @@
-# Filecoin Green Documentation
+# ♻ Filecoin Green Documentation
 
 [Filecoin Green](https://green.filecoin.io/) is our effort to make rich environmental accounting a Web3 Superpower.\
 \
@@ -8,10 +8,10 @@ This is the official Documentation hub for Filecoin Green, and it is intended to
 
 Browse the following pages for more information:
 
-{% content-ref url="filecoin-green-api-docs/" %}
-[filecoin-green-api-docs](filecoin-green-api-docs/)
-{% endcontent-ref %}
-
 {% content-ref url="README (1).md" %}
 [README (1).md](<README (1).md>)
+{% endcontent-ref %}
+
+{% content-ref url="filecoin-green-api-docs/" %}
+[filecoin-green-api-docs](filecoin-green-api-docs/)
 {% endcontent-ref %}

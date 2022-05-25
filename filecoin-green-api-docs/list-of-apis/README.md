@@ -4,7 +4,7 @@ description: >-
   complete documentation.
 ---
 
-# List of APIs
+# 🔧 List of APIs
 
 ## Energy consumption API
 

@@ -4,7 +4,7 @@ description: >-
   consumption metric.
 ---
 
-# Energy Consumption API
+# ⚡ Energy Consumption API
 
 {% hint style="info" %}
 **Good to know:** In addition to below there is an Open API documentation available [here](https://api.filecoin.energy/docs/).
