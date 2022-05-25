@@ -1,18 +1,18 @@
 ---
 description: >-
   This API provides comprehensive data about Filecoin Storage Providers' energy
-  consumption.
+  consumption metric.
 ---
 
-# Energy consumption API
+# Energy Consumption API
 
 {% hint style="info" %}
 **Good to know:** In addition to below there is an Open API documentation available [here](https://api.filecoin.energy/docs/).
 {% endhint %}
 
-## Data model
+## Data Model
 
-Data model end point is listing all available data models (e.g. Energy intensity, Energy used to seal data, Energy used to store data, etc.).
+The Data Model end point is listing all available data models (e.g. Energy intensity, Energy used to seal data, Energy used to store data, etc.).
 
 {% swagger method="get" path="" baseUrl="https://api.filgreen.d.interplanetary.one/models/list" summary="List available API data models" %}
 {% swagger-description %}
@@ -131,7 +131,7 @@ _Storage Provider (SP) view:_ The amount of data storage contributed by this SP,
 
 </details>
 
-### Energy consumption: Daily, weekly and monthly data granulation
+### Energy Consumption: Daily, weekly and monthly data granularity
 
 This endpoint provides energy consumption data for selected data model grouped on a daily, weekly or monthly scale.
 
@@ -253,7 +253,7 @@ If not provided data points are listed up to the most recent measurement.
 {% endswagger-response %}
 {% endswagger %}
 
-### Energy consumption: All data points
+### Energy Consumption: All data points
 
 This endpoint provides all measured energy consumption data points for selected data model.
 
