@@ -1,7 +1,7 @@
 # Table of contents
 
-* [♻ Filecoin Green Documentation](README.md)
-* [📗 Storage Providers Green Guidance Documentation](<README (1).md>)
+* [📗 Filecoin Green Documentation](README.md)
+* [♻ Storage Providers Green Guidance Documentation](<README (1).md>)
   * [🌐 Introduction](readme/introduction.md)
   * [🌍 Filecoin Green](readme/filecoin-green.md)
     * [🔱 Filecoin Green Pledge](readme/filecoin-green-pledge.md)
