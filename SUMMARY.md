@@ -1,6 +1,10 @@
 # Table of contents
 
 * [Filecoin Green Documentation](README.md)
+* [Filecoin Green APIs Docs](filecoin-green-apis-docs/README.md)
+  * [List of APIs](filecoin-green-apis-docs/list-of-apis/README.md)
+    * [Energy consumption API](filecoin-green-apis-docs/list-of-apis/energy-consumption-api.md)
+    * [Renewable Energy Certificates API](filecoin-green-apis-docs/list-of-apis/renewable-energy-certificates-api.md)
 * [Storage Providers Green Guidance Documentation](<README (1).md>)
   * [Introduction](readme/introduction.md)
   * [Filecoin Green](readme/filecoin-green.md)
