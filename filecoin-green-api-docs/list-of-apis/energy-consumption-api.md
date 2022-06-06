@@ -150,7 +150,7 @@ Id of the data model.
 {% endswagger-parameter %}
 
 {% swagger-parameter in="query" name="code_name*" type=" " %}
-Code name of the data model.
+Code name of the data model, see 'Available data models' above.
 
 \
 
@@ -272,7 +272,7 @@ Id of the data model.
 {% endswagger-parameter %}
 
 {% swagger-parameter in="query" name="code_name*" type=" " %}
-Code name of the data model.
+Code name of the data model, see 'Available data models' above.
 
 \
 
