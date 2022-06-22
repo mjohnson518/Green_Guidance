@@ -29,3 +29,17 @@ Everything related to Renewable Energy:
 {% hint style="info" %}
 **Good to know:** Comprehensive Open API documentation for all API methods is available [here](https://proofs-api.zerolabs.green/swagger/). Please note that you will need and API key for all endpoints that are covered in swagger but not listed here above.
 {% endhint %}
+
+## Filecoin Miner IDs <-> Peer IDs relations API
+
+Everything related to Storage Providers' Miner IDs <-> Peer IDs relations:
+
+{% content-ref url="filecoin-miner-id-less-than-greater-than-peer-id-relation-api.md" %}
+[filecoin-miner-id-less-than-greater-than-peer-id-relation-api.md](filecoin-miner-id-less-than-greater-than-peer-id-relation-api.md)
+{% endcontent-ref %}
+
+{% hint style="info" %}
+**Good to know:** In addition to above there is an Open API documentation available [here](https://green.filecoin.space/swagger/minerid-peerid/).
+{% endhint %}
+
+##
