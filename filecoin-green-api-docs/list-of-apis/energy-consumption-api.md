@@ -308,85 +308,62 @@ Maximal number of data points to be listed. Default 10000.
 {% swagger-response status="200: OK" description="JSON response" %}
 ```javascript
 {
-  "fields": [
-    "epoch",
-    "total_energy_kW_lower",
-    "total_energy_kW_estimate",
-    "total_energy_kW_upper",
-    "timestamp"
-  ],
-  "data": [
-    {
-      "epoch": "1423800",
-      "total_energy_kW_lower": "26561.709211124736",
-      "total_energy_kW_estimate": "142666.944194007936",
-      "total_energy_kW_upper": "394504.605809705056",
-      "timestamp": "2022-01-01T00:00:00.000Z"
-    },
-    {
-      "epoch": "1423801",
-      "total_energy_kW_lower": "33665.494160344832",
-      "total_energy_kW_estimate": "196408.026620076032",
-      "total_energy_kW_upper": "502793.474799859072",
-      "timestamp": "2022-01-01T00:00:30.000Z"
-    },
-    {
-      "epoch": "1423802",
-      "total_energy_kW_lower": "24310.747738816768",
-      "total_energy_kW_estimate": "125638.018984010368",
-      "total_energy_kW_upper": "360191.320487680928",
-      "timestamp": "2022-01-01T00:01:00.000Z"
-    },
-    {
-      "epoch": "1423803",
-      "total_energy_kW_lower": "26620.212637369856",
-      "total_energy_kW_estimate": "143109.417155747456",
-      "total_energy_kW_upper": "395396.401709311776",
-      "timestamp": "2022-01-01T00:01:30.000Z"
-    },
-    {
-      "epoch": "1423804",
-      "total_energy_kW_lower": "24778.503308768000",
-      "total_energy_kW_estimate": "129176.600096249600",
-      "total_energy_kW_upper": "367321.696158196800",
-      "timestamp": "2022-01-01T00:02:00.000Z"
-    },
-    {
-      "epoch": "1423805",
-      "total_energy_kW_lower": "24456.941042341376",
-      "total_energy_kW_estimate": "126743.912678130176",
-      "total_energy_kW_upper": "362419.851969575296",
-      "timestamp": "2022-01-01T00:02:30.000Z"
-    },
-    {
-      "epoch": "1423806",
-      "total_energy_kW_lower": "23258.369123417344",
-      "total_energy_kW_estimate": "117676.527420118144",
-      "total_energy_kW_upper": "344149.023870830624",
-      "timestamp": "2022-01-01T00:03:00.000Z"
-    },
-    {
-      "epoch": "1423807",
-      "total_energy_kW_lower": "27906.524038613504",
-      "total_energy_kW_estimate": "152840.442591807104",
-      "total_energy_kW_upper": "415004.693759300384",
-      "timestamp": "2022-01-01T00:03:30.000Z"
-    },
-    {
-      "epoch": "1423808",
-      "total_energy_kW_lower": "27000.292853051136",
-      "total_energy_kW_estimate": "145984.641783342336",
-      "total_energy_kW_upper": "401190.255044203456",
-      "timestamp": "2022-01-01T00:04:00.000Z"
-    },
-    {
-      "epoch": "1423809",
-      "total_energy_kW_lower": "27175.705275236096",
-      "total_energy_kW_estimate": "147311.627765050496",
-      "total_energy_kW_upper": "403864.205879485216",
-      "timestamp": "2022-01-01T00:04:30.000Z"
-    }
-  ]
+    "id": "5",
+    "code_name": "EnergyIntensityModel",
+    "name": "Energy Intensity",
+    "category": "energy",
+    "x": "time",
+    "y": "MW_per_EiB",
+    "version": 0,
+    "filter": "day",
+    "miner": "f01419959",
+    "data": [
+        {
+            "title": "Lower bound",
+            "data": [
+                {
+                    "value": "1.227484473327616000000000000",
+                    "start_date": "2022-04-29T00:00:00.000Z",
+                    "end_date": "2022-04-29T23:59:59.999Z"
+                },
+                {
+                    "value": "1.227484473327616000000000000",
+                    "start_date": "2022-04-30T00:00:00.000Z",
+                    "end_date": "2022-04-30T23:59:59.999Z"
+                }
+            ]
+        },
+        {
+            "title": "Estimate",
+            "data": [
+                {
+                    "value": "5.430217346646016000000000000",
+                    "start_date": "2022-04-29T00:00:00.000Z",
+                    "end_date": "2022-04-29T23:59:59.999Z"
+                },
+                {
+                    "value": "5.430217346646016000000000000",
+                    "start_date": "2022-04-30T00:00:00.000Z",
+                    "end_date": "2022-04-30T23:59:59.999Z"
+                }
+            ]
+        },
+        {
+            "title": "Upper bound",
+            "data": [
+                {
+                    "value": "18.023603698139136000000000000",
+                    "start_date": "2022-04-29T00:00:00.000Z",
+                    "end_date": "2022-04-29T23:59:59.999Z"
+                },
+                {
+                    "value": "18.023603698139136000000000000",
+                    "start_date": "2022-04-30T00:00:00.000Z",
+                    "end_date": "2022-04-30T23:59:59.999Z"
+                }
+            ]
+        }
+    ]
 }
 ```
 {% endswagger-response %}

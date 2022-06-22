@@ -31,3 +31,4 @@
   * [🔧 List of APIs](filecoin-green-api-docs/list-of-apis/README.md)
     * [⚡ Energy Consumption API](filecoin-green-api-docs/list-of-apis/energy-consumption-api.md)
     * [📈 Renewable Energy Certificates API](filecoin-green-api-docs/list-of-apis/renewable-energy-certificates-api.md)
+    * [↔ Filecoin Miner ID <-> Peer ID relation API](filecoin-green-api-docs/list-of-apis/filecoin-miner-id-less-than-greater-than-peer-id-relation-api.md)
