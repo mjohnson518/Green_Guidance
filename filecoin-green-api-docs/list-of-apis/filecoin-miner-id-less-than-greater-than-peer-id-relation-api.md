@@ -14,7 +14,16 @@ By passing in the comma delimited list of Miner Ids, you can search for related 
 
 {% swagger method="get" path="/peer_id" baseUrl="https://green.filecoin.space/minerid-peerid/api/v1" summary="Get Filecoin storage providers' Peer IDs for supplied list of comma separated Miner IDs" %}
 {% swagger-description %}
+Example:
 
+\
+
+
+
+
+[`https://green.filecoin.space/minerid-peerid/api/v1/peer-id?miner_id=f01234`](https://green.filecoin.space/minerid-peerid/api/v1/peer-id?miner_id=f01234)
+
+``
 {% endswagger-description %}
 
 {% swagger-parameter in="query" name="miner_id" type="String" %}
@@ -43,7 +52,16 @@ By passing in the comma delimited list of Peer Ids, you can search for related M
 
 {% swagger method="get" path="/miner_id" baseUrl="https://green.filecoin.space/minerid-peerid/api/v1" summary="Get Filecoin storage providers' Miner IDs for supplied list of comma separated Peer IDs" %}
 {% swagger-description %}
+Example:
 
+\
+
+
+
+
+[`https://green.filecoin.space/minerid-peerid/api/v1/miner-id?peer_id=12D3KooWPWJemjphGa2pANr6j7HCaLyjUvCroHyTJsATY6TaCFAF`](https://green.filecoin.space/minerid-peerid/api/v1/miner-id?peer_id=12D3KooWPWJemjphGa2pANr6j7HCaLyjUvCroHyTJsATY6TaCFAF)
+
+``
 {% endswagger-description %}
 
 {% swagger-parameter in="query" name="peer_id" type="String" %}
