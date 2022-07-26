@@ -1,4 +1,4 @@
-# Introduction
+# 🌐 Introduction
 
 The [United Nations Environmental Programme's 2021 Emissions Gap Report](https://www.unep.org/resources/emissions-gap-report-2021) highlights that climate change is no longer a future problem. It is a '_now_' problem. The [Intergovernmental Panel on Climate Change (IPCC) Sixth Assessment Report (AR6)](https://www.ipcc.ch/assessment-report/ar6/) further demonstrates that many of the extreme weather events experienced around the world today can be attributed to the build-up of anthropogenic greenhouse gas (GHG) emissions in the atmosphere.
 

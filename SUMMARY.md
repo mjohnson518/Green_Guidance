@@ -32,3 +32,7 @@
     * [⚡ Energy Consumption API](filecoin-green-api-docs/list-of-apis/energy-consumption-api.md)
     * [📈 Renewable Energy Certificates API](filecoin-green-api-docs/list-of-apis/renewable-energy-certificates-api.md)
     * [↔ Filecoin Miner ID <-> Peer ID relation API](filecoin-green-api-docs/list-of-apis/filecoin-miner-id-less-than-greater-than-peer-id-relation-api.md)
+* [🖥 Filecoin Green UI Tools](filecoin-green-ui-tools/README.md)
+  * [🔍 CID.place](filecoin-green-ui-tools/cid.place.md)
+  * [📃 REC Browser](filecoin-green-ui-tools/rec-browser.md)
+  * [📈 Metered Energy Consumption](filecoin-green-ui-tools/metered-energy-consumption.md)
