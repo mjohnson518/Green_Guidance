@@ -1,4 +1,4 @@
-# 🔆 Conclusion
+# Conclusion
 
 **The clock is ticking, and there is no time to wait**. The World must take _decisive and collective action_ to decarbonize all forms of economic activity within this decade, or else face an increasingly unstable climate.
 

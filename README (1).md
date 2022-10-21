@@ -1,4 +1,4 @@
-# ♻ Storage Providers Green Guidance Documentation
+# Storage Providers Green Guidance Documentation
 
 ## Motivation:
 
