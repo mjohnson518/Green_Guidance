@@ -1,4 +1,4 @@
-# Filecoin Green
+# 🌍 Filecoin Green
 
 In recognition of this decarbonization imperative, Protocol Labs launched [Filecoin Green](https://green.filecoin.io), an initiative focused on building web3-native monitoring and reporting tools for publicly verifiable environmental claims.
 

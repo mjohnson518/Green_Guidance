@@ -41,3 +41,15 @@ Search trough Storage Providers' energy consumption by HW components and racks:
 {% content-ref url="metered-energy-consumption.md" %}
 [metered-energy-consumption.md](metered-energy-consumption.md)
 {% endcontent-ref %}
+
+## [CSV Export utility](https://green.filecoin.space/audit/)
+
+[<mark style="color:green;">https://green.filecoin.space/audit/</mark>](https://green.filecoin.space/audit/)<mark style="color:green;"></mark>
+
+Export Storage Providers' energy consumption:
+
+![](<../.gitbook/assets/Screen Shot 2022-08-04 at 10.32.02 AM (1).png>)
+
+{% content-ref url="csv-export-utility.md" %}
+[csv-export-utility.md](csv-export-utility.md)
+{% endcontent-ref %}
