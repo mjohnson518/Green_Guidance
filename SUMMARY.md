@@ -37,5 +37,5 @@
   * [📃 REC Browser](filecoin-green-ui-tools/rec-browser.md)
   * [📈 Metered Energy Consumption](filecoin-green-ui-tools/metered-energy-consumption.md)
   * [📩 CSV Export utility](filecoin-green-ui-tools/csv-export-utility.md)
-* [Page 1](page-1.md)
+  * [👾 CO2.Storage](filecoin-green-ui-tools/co2.storage.md)
 * [📚 Additional Resources](additional-resources.md)
