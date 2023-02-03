@@ -12,4 +12,4 @@ Browse the following pages for more information:
   * :books: [Table of Contents](SUMMARY.md)
 * :gear: [Filecoin Green Api Docs](filecoin-green-api-docs/)
 * :desktop: [Filecoin Green UI Tools](filecoin-green-ui-tools/)
-* :space\_invader: [Co2.Storage Docs](co2.storage-docs/)
+* :space\_invader: [Co2.Storage Docs](https://filecoin-green.gitbook.io/filecoin-green-documentation/co2.storage-docs)
