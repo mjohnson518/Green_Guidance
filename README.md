@@ -8,14 +8,10 @@ This is the official Documentation hub for Filecoin Green, and it is intended to
 
 Browse the following pages for more information:
 
-{% content-ref url="README (1).md" %}
-[README (1).md](<README (1).md>)
-{% endcontent-ref %}
+- [Green Guidance](<readme/>)
 
-{% content-ref url="filecoin-green-api-docs/" %}
-[filecoin-green-api-docs](filecoin-green-api-docs/)
-{% endcontent-ref %}
+- [Filecoin Green Api Docs](filecoin-green-api-docs/)
 
-{% content-ref url="filecoin-green-ui-tools/" %}
-[filecoin-green-ui-tools](filecoin-green-ui-tools/)
-{% endcontent-ref %}
+- [Filecoin Green UI Tools](filecoin-green-ui-tools/)
+
+- [Co2.Storage Docs](co2.storage-docs/)
