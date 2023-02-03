@@ -8,7 +8,7 @@ This is the official Documentation hub for Filecoin Green, and it is intended to
 
 Browse the following pages for more information:
 
-* :green\_book: [Green Guidance](storage-providers-green-guidance/)
+* :green\_book: [Green Guidance](storage-providers-green-guidance/README.md)
   * :books: [Table of Contents](SUMMARY.md)
 * :gear: [Filecoin Green Api Docs](filecoin-green-api-docs/)
 * :desktop: [Filecoin Green UI Tools](filecoin-green-ui-tools/)
