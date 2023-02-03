@@ -8,10 +8,11 @@ This is the official Documentation hub for Filecoin Green, and it is intended to
 
 Browse the following pages for more information:
 
-- [Green Guidance](<readme/>)
+- :green_book: [Green Guidance](readme/)
+  - :books: [Table of Contents](SUMMARY.md)
 
-- [Filecoin Green Api Docs](filecoin-green-api-docs/)
+- :gear: [Filecoin Green Api Docs](filecoin-green-api-docs/)
 
-- [Filecoin Green UI Tools](filecoin-green-ui-tools/)
+- :desktop_computer: [Filecoin Green UI Tools](filecoin-green-ui-tools/)
 
-- [Co2.Storage Docs](co2.storage-docs/)
+- :space_invader: [Co2.Storage Docs](co2.storage-docs/)
