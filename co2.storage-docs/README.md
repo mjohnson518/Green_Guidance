@@ -1,7 +1,7 @@
 ---
-description: Documentation for Co2.Storage
+description: Documentation for CO2.Storage
 ---
 
-# 👾 Co2.Storage Docs
+# 👾 CO2.Storage Docs
 
-### This is the home for all documentation about [Co2.Storage](https://co2.storage)! 🚀
+### This is the home for all documentation about [CO2.Storage](https://co2.storage)! 🚀
