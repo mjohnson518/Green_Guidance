@@ -9,6 +9,6 @@ This is the official Documentation hub for Filecoin Green, and it is intended to
 Browse the following pages for more information:
 * :books: [Table of Contents](SUMMARY.md)
 * :green\_book: [Green Guidance](https://filecoin-green.gitbook.io/filecoin-green-documentation/storage-providers-green-guidance-documentation)
-* :gear: [Filecoin Green Api Docs](filecoin-green-api-docs/)
+* :gear: [Filecoin Green API Docs](filecoin-green-api-docs/)
 * :desktop: [Filecoin Green UI Tools](filecoin-green-ui-tools/)
 * :space\_invader: [Co2.Storage Docs](https://filecoin-green.gitbook.io/filecoin-green-documentation/co2.storage-docs)
