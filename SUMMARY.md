@@ -41,6 +41,7 @@
 * [📚 Additional Resources](additional-resources.md)
 * [👾 CO2.Storage Docs](co2.storage-docs/README.md)
   * [🧐 About](co2.storage-docs/about.md)
+  * [⚙ Data Model](co2.storage-docs/data-model.md)
   * [🧑💻 Getting Started](co2.storage-docs/getting-started.md)
   * [⚒ How-To](co2.storage-docs/how-to.md)
   * [💥 Examples](co2.storage-docs/examples.md)
