@@ -1,5 +1,9 @@
 # 💥 Examples
 
+## API Examples
+
+For CLI examples showing how to add an data, authenticate data, and manage accounts using the Javascript API, see the [repo here](https://github.com/protocol/co2-storage/tree/main/cli/src/examples).&#x20;
+
 ## Examples
 
 To publicly discuss and crowd-source data schemas for CO2.Storage, and to encourage standardization and reduce fragmentation of data schemas across the Refi space, the Filecoin Green team has created the [CO2.Storage Schemas Repo](https://github.com/protocol/co2\_storage\_schemas). In this repository, there are several example schemas based on projects from notable carbon credit registries. These include:
