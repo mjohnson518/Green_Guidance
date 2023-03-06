@@ -1,16 +1,12 @@
 # 🏗 API Functionality
 
-Co2.Storage has a Javascript API, which enables users to interact with data schemas and assets in a number of ways. The API is available on NPM here: [CO2.Storage API](https://www.npmjs.com/package/@co2-storage/js-api).
+Co2.Storage has a Javascript API, which enables users to interact with data schemas and assets in a number of ways. The API is available on NPM here: [CO2.Storage API](https://www.npmjs.com/package/@co2-storage/js-api). Below are descriptions of the various API endpoints:
 
-Below are descriptions of the various API endpoints:
-
-* [**Authenticate**](https://github.com/protocol/co2-storage/blob/main/cli/src/examples/authenticate.js): this endpoint allows users to authenticate with a private key using the `Auth` class from the `@co2-storage/js-api` library.
+* [**Authenticate**](https://github.com/protocol/co2-storage/blob/main/cli/src/examples/authenticate.js): this endpoint allows users to authenticate with a private key using the `Auth` class.
 
     * This endpoint exports a single function called `authenticate()` which returns a `Promise` that resolves to either an `error` or a `result` property.
-    * To use the endpoint, users should import the `Auth` class from the `@co2-storage/js-api` library, and then create a new instance of it with the authentication type set to `"pk"`. Once an instance of `Auth` is created, users can call the `authenticate()` function to authenticate with their private key.
+    * To use the endpoint, users should import the `Auth` class, and then create a new instance of it with the authentication type set to `"pk"`. Once an instance of `Auth` is created, users can call the `authenticate()` function to authenticate with their private key.
     * If the authentication is successful, the `authenticate()` function returns an object with a `result` property that contains the authenticated user's information. If the authentication fails, the `authenticate()` function returns an `error` that explains the reason for the failure.
-    * If an error occurs during authentication, the endpoint will log the error to the console and exit the program after 300ms. If authentication is successful, the program waits 1 second before exiting.
-
 
 
 * [**Add Template**](https://github.com/protocol/co2-storage/blob/main/cli/src/examples/add\_template.js): this endpoint allows the user to add a template to CO2.Storage.
@@ -22,7 +18,6 @@ Below are descriptions of the various API endpoints:
       * The `templateParent` is the CID of the template that the new template should inherit from.
       * &#x20;The `chainName` is a string that defines the branch of the IPLD DAG from which the template was created.
     * The endpoint instantiates a new object with the provided authentication, IPFS node type, IPFS node address, and API URL. The endpoint then calls the `addTemplate()` method of the FGStorage object to add the template to IPFS. The endpoint will return a response containing the added templates CID.
-    * If the method call results in an error, an error message is logged to the console and the program exits. If successful, the endpoint logs the result to the console and waits for 1 second before exiting the program.
     * A full list of the supported data types can be found here: [**CO2.Storage Supported Data Types**](https://github.com/protocol/co2\_storage\_schemas/blob/main/Schemas/Instructions.md#currently-supported-data-types)
 
 
