@@ -12,6 +12,7 @@ Below are descriptions of the various API endpoints:
     * If an error occurs during authentication, the endpoint will log the error to the console and exit the program after 300ms. If authentication is successful, the program waits 1 second before exiting.
 
 
+
 * [**Add Template**](https://github.com/protocol/co2-storage/blob/main/cli/src/examples/add\_template.js): this endpoint allows the user to add a template to CO2.Storage.
 
     * The template is defined as a JSON object and must include a `type` and `mandatory` fields for each template attribute.&#x20;
@@ -40,6 +41,7 @@ Below are descriptions of the various API endpoints:
     * `assetCreationEnd`: a function that will be called when asset creation ends
   * The endpoint will return a response containing the added asset's CID.
 
+
 * [**Get Template**](https://github.com/protocol/co2-storage/blob/main/cli/src/examples/get\_template.js): this endpoint allows users to to search for and retrieve templates from CO2.Storage.
 
     * This endpoint takes ten optional parameters: `chainName`, `phrases`, `cid`, `name`, `base`, `account`, `offset`, `limit`, `sortBy`, and `sortDir`.
@@ -54,24 +56,29 @@ Below are descriptions of the various API endpoints:
   * The API searches for assets using the `searchAssets` method, which takes several optional parameters such as `phrases`, `cid`, `name`, `base`, `account`, `offset`, `limit`, `sortBy`, and `sortDir`.
   * The API retrieves the last listed asset using the block CID returned by the search. The `getAsset` method is used to retrieve the asset, passing in the block CID as the parameter. The retrieved asset is printed to the console using `console.dir`, and the program waits for 1 second before exiting. 
 
+
 * [**Search Templates**](https://github.com/protocol/co2-storage/blob/main/cli/src/examples/search\_templates.js): this endpoint allows users to search for templates on CO2.Storage.
   * The endpoint takes in several parameters, including `chainName`, `phrases`, `cid`, `name`, `base`, `account`, `offset`, `limit`, `sortBy`, and `sortDir`, which can be used to filter and sort the search results.
     * The default values for these parameters are `sandbox`, `null`, `null`, `null`, `null`, `null`, `0`, `10`, `null`, and `null`, respectively.
   * The response returns a JSON object containing information on the searched templates, including the template's name, version, block CID, and metadata.
 
+
 * [**Search Assets**](https://github.com/protocol/co2-storage/blob/main/cli/src/examples/search\_assets.js): this endpoint allows users to search for assets on CO2.Storage.
   * The endpoint takes in parameters including `chainName`, `phrases`, `cid`, `name`, `base`, `account`, `offset`, `limit`, `sortBy`, and `sortDir`, with default values set for several of these parameters.
   * The endpoint returns a JSON response containing a `result` object with information about the assets matching the search parameters, including their names, block IDs, and other metadata. 
+
 
 * [**Get Account**](https://github.com/protocol/co2-storage/blob/main/cli/src/examples/get\_account.js): this endpoint retrieves the details of one account through the `getAccount` function.
   * The endpoint takes one parameter, `chainName`, which is a string indicating the name of the environment where the account is located.
   * The endpoint returns an object with information about the account, including its address, balance, and nonce. 
 
+
 * [**Get Accounts**](https://github.com/protocol/co2-storage/blob/main/cli/src/examples/get\_accounts.js): this endpoint retrieves the details of all accounts in a given environment through the `getAccounts` function.
   * The endpoint requires a `chainName` parameter, which specifies the environment to search for accounts on. 
   * The function returns an object with two properties: `error` and `result`.
-    * The `error` property is null if there were no errors, and contains an error message if an error was encountered.&#x20;
-    * The `result` property contains an array of objects representing the accounts associated with the specified chain.\
+    * The `error` property is null if there were no errors, and contains an error message if an error was encountered.
+    * The `result` property contains an array of objects representing the accounts associated with the specified chain.
+
 
 * [**Sign CID's**](https://github.com/protocol/co2-storage/blob/main/cli/src/examples/sign\_cid.js)**: t**his endpoint is for signing a CID of an Asset on CO2.Storage
   * It signs the CID with the private key provided in the authentication step.
