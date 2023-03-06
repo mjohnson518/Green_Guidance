@@ -2,7 +2,7 @@
 
 ## API Examples
 
-For CLI examples showing how to add an data, authenticate data, and manage accounts using the Javascript API, see the [repo here](https://github.com/protocol/co2-storage/tree/main/cli/src/examples).&#x20;
+For CLI examples showing how to add data, authenticate data, and manage accounts using the Javascript API, see the [repo here](https://github.com/protocol/co2-storage/tree/main/cli/src/examples).&#x20;
 
 ## Examples
 
