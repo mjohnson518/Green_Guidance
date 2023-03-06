@@ -6,13 +6,13 @@ Below are descriptions of the various API endpoints:&#x20;
 
 *   ****[**Authenticate**](https://github.com/protocol/co2-storage/blob/main/cli/src/examples/authenticate.js): this endpoint allows users to authenticate with a private key using the `Auth` class from the `@co2-storage/js-api` library.&#x20;
 
-    * This endpoint exports a single function called `authenticate()` which returns a Promise that resolves to either an `error` or a `result` property.
+    * This endpoint exports a single function called `authenticate()` which returns a `Promise` that resolves to either an `error` or a `result` property.
     * To use the endpoint, users should import the `Auth` class from the `@co2-storage/js-api` library, and then create a new instance of it with the authentication type set to `"pk"`. Once an instance of `Auth` is created, users can call the `authenticate()` function to authenticate with their private key.
-    * If the authentication is successful, the `authenticate()` function returns an object with a `result` property that contains the authenticated user's information. If the authentication fails, the `authenticate()` function returns an object with an `error` property that contains the reason for the failure.
-    * If an error occurs during authentication, the endpoint. will log the error to the console and exit the program after 300ms. If authentication is successful, the program waits 1 second before exiting.
+    * If the authentication is successful, the `authenticate()` function returns an object with a `result` property that contains the authenticated user's information. If the authentication fails, the `authenticate()` function returns an `error` that explains the reason for the failure.
+    * If an error occurs during authentication, the endpoint will log the error to the console and exit the program after 300ms. If authentication is successful, the program waits 1 second before exiting.
 
 
-*   ****[**Add Template**](https://github.com/protocol/co2-storage/blob/main/cli/src/examples/add\_template.js): this endpoint allows the user to add a template to CO2.Storage.&#x20;
+*   ****[**Add Template**](https://github.com/protocol/co2-storage/blob/main/cli/src/examples/add\_template.js): this endpoint allows the user to add a template to CO2.Storage.
 
     * The template is defined as a JSON object and must include a `type` and `mandatory` fields for each template attribute.&#x20;
       * The `templateName` is a string that gives the template a name.&#x20;
