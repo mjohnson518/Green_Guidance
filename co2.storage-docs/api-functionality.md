@@ -44,8 +44,8 @@ Co2.Storage has a Javascript API, which enables users to interact with data sche
     * The function returns a response object that includes the search results in `result.templates` or an error in `error`.
     * The `getTemplate` function is used to retrieve a specific template from Co2.Storage. It takes a single parameter, the `block` CID of the desired template.
     * The function returns a response object that includes the template data in `result` or an error in `error`.
-
-    The script uses `searchTemplates` to find the most recently listed template and then uses `getTemplate` to retrieve that template's data. If an error occurs during either function call, the script logs the error and exits. The script waits for 1 second before exiting.
+    * The script uses `searchTemplates` to find the most recently listed template and then uses `getTemplate` to retrieve that template's data. 
+<br>
 
 * [**Get Asset**](https://github.com/protocol/co2-storage/blob/main/cli/src/examples/get\_asset.js): this endpoint endpoint allows users to search for and retrieve assets stored on CO2.Storage.
   * The API searches for assets using the `searchAssets` method, which takes several optional parameters such as `phrases`, `cid`, `name`, `base`, `account`, `offset`, `limit`, `sortBy`, and `sortDir`.
