@@ -22,7 +22,7 @@ Below are descriptions of the various API endpoints:
       * &#x20;The `chainName` is a string that defines the branch of the IPLD DAG from which the template was created.
     * The endpoint instantiates a new object with the provided authentication, IPFS node type, IPFS node address, and API URL. The endpoint then calls the `addTemplate()` method of the FGStorage object to add the template to IPFS. The endpoint will return a response containing the added templates CID.
     * If the method call results in an error, an error message is logged to the console and the program exits. If successful, the endpoint logs the result to the console and waits for 1 second before exiting the program.
-    * A full list of the supported data types can be found here: [**CO2.Storage Supported Data Types**](https://github.com/protocol/co2\_storage\_schemas/blob/main/Schemas/Instructions.md#currently-supported-data-types)****
+    * A full list of the supported data types can be found here: [**CO2.Storage Supported Data Types**](https://github.com/protocol/co2\_storage\_schemas/blob/main/Schemas/Instructions.md#currently-supported-data-types)
 
 
 * [**Add Asset**](https://github.com/protocol/co2-storage/blob/main/cli/src/examples/add\_asset.js): this endpoint allows the user to add an asset to CO2.Storage.
