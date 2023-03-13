@@ -21,7 +21,7 @@ This schema can be viewed on the IPLD explorer here: [https://explbafyreifjh7xup
 
 ## Gas Emissions Measurements
 
-One of the datasets on co2.storage is a set of measurements of methane (CH4, a powerful greenhouse gas) made available by our friends at Hyphen. For more info on what this dataset is and where it comes from, go to [hyphen.earth](https://www.hyphen.earth/)
+One of the datasets on co2.storage is a set of measurements of methane (CH4, a powerful greenhouse gas) made available by our friends at [Hyphen](https://twitter.com/HYPHEN\_AG). This data is taken from atmospheric observation sites throughout the world, giving information about where methane is being emitted.
 
 To access the data using the co2.storage UI follow these steps:
 
@@ -36,3 +36,5 @@ To access the data using the co2.storage UI follow these steps:
 <figure><img src="../.gitbook/assets/Screenshot 2023-03-12 at 7.53.15 PM.png" alt=""><figcaption></figcaption></figure>
 
 4\) Click on an asset (example: CH4 2023-3-6) to load and browse asset data.
+
+For more information on Hyphen, visit [hyphen.earth](https://www.hyphen.earth/)
