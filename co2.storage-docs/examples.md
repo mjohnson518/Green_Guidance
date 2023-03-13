@@ -18,3 +18,21 @@ An example of what these schemas looks like on the CO2.Storage UI is included be
 <figure><img src="https://lh4.googleusercontent.com/KT1vX21_8r55FwgTpOL1IP896RRyeNhqKRCT7i_mNgP9-OMRqcsHe07xHA3I5zGDoRmZBcdtBajCca-_lQzhzgeqA3UlGY9Iq8qsDTETbT7mcHVtha5VZRr0GDWnlHIxReZHEENSnqiohhrZV8iQA9k" alt=""><figcaption><p>Example Schema on Co2.Storage UI</p></figcaption></figure>
 
 This schema can be viewed on the IPLD explorer here: [https://explbafyreifjh7xup5zw6amedbccgz5w6abn7q5ie2eipu2x2grptpvocva3fm](https://explore.ipld.io/#/explore/bafyreifjh7xup5zw6amedbccgz5w6abn7q5ie2eipu2x2grptpvocva3fm)
+
+## Gas Emissions Measurements
+
+One of the datasets on co2.storage is a set of measurements of methane (CH4, a powerful greenhouse gas) made available by our friends at Hyphen. For more info on what this dataset is and where it comes from, go to [hyphen.earth](https://www.hyphen.earth/)
+
+To access the data using the co2.storage UI follow these steps:
+
+1\) Go to [co2.storage](https://co2.storage/) and click on "Assets" in the upper right hand corner.
+
+<figure><img src="../.gitbook/assets/Screenshot 2023-03-12 at 7.48.14 PM.png" alt=""><figcaption></figcaption></figure>
+
+2\) If you get a login error, connect your Metamask wallet to co2.storage to log in.
+
+3\) In the upper left hand corner, choose "Gas Emissions Measurements - Hyphen" to display the CH4 datasets.&#x20;
+
+<figure><img src="../.gitbook/assets/Screenshot 2023-03-12 at 7.53.15 PM.png" alt=""><figcaption></figcaption></figure>
+
+4\) Click on an asset (example: CH4 2023-3-6) to load and browse asset data.
