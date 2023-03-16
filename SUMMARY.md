@@ -43,6 +43,7 @@
   * [🧐 About](co2.storage-docs/about.md)
   * [⚙ Data Model](co2.storage-docs/data-model.md)
   * [⚒ UI: Getting Started](co2.storage-docs/how-to.md)
+  * [🏗 Setting Up the CLI](co2.storage-docs/setting-up-the-cli.md)
   * [💥 Examples](co2.storage-docs/examples.md)
   * [🏗 API Functionality](co2.storage-docs/api-functionality.md)
   * [🖥 UI Functionality](co2.storage-docs/ui-functionality.md)
