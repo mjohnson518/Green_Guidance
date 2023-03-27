@@ -29,9 +29,11 @@ Now in `demo-app/package.json` you should see `co2-storage/js-api` listed under 
 ```json
 ...
 "dependencies": {
-    "@co2-storage/js-api": "^1.2.0",
+    "@co2-storage/js-api": "^X.Y.Z",
     ...
 ```
+
+Where X.Y.Z is the version installed (at time of writing, 1.2.2).
 
 4\) We can now copy code from the [examples repo folder](https://github.com/protocol/co2-storage/tree/main/cli/src/examples) in order to bring CO2.Storage functionality to our web app!&#x20;
 
@@ -43,7 +45,7 @@ import { FGStorage } from '@co2-storage/js-api';
 const authType = "metamask"
 const ipfsNodeType = "browser"
 const ipfsNodeAddr = "/dns4/web2.co2.storage/tcp/5002/https"
-const fgApiUrl = "https://green.filecoin.space" // 
+const fgApiUrl = "https://web2.co2.storage" // 
 
 const fgStorage = new FGStorage({authType: authType, ipfsNodeType: ipfsNodeType, ipfsNodeAddr: ipfsNodeAddr, fgApiHost: fgApiUrl})
 
@@ -81,7 +83,7 @@ async function SearchTemplates(){
       // process.exit()
   }
 
-  console.log(searchTemplatesResponse.result, {depth: null})
+  console.log(searchTemplatesResponse.result)
 
 }
 ```
