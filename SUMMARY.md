@@ -45,6 +45,7 @@
   * [⚒ UI: Getting Started](co2.storage-docs/how-to.md)
   * [🏗 Setting Up the CLI](co2.storage-docs/setting-up-the-cli.md)
   * [💥 Examples](co2.storage-docs/examples.md)
+  * [🌱 Build a Web UI](co2.storage-docs/build-a-web-ui.md)
   * [🖥 UI Functionality](co2.storage-docs/ui-functionality.md)
   * [⌨ API Functionality](co2.storage-docs/api-functionality.md)
   * [‼ Troubleshooting](co2.storage-docs/troubleshooting.md)
