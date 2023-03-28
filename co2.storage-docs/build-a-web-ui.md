@@ -21,7 +21,7 @@ You should see your app when you go to [http://localhost:3000/](http://localhost
 3\) In the app folder, install the co2-storage javascript package by running:
 
 ```bash
-npm init react-app demo-app
+npm i @co2-storage/js-api
 ```
 
 Now in `demo-app/package.json` you should see `co2-storage/js-api` listed under dependencies:
