@@ -78,8 +78,8 @@ The lines should look like this:
 ```javascript
 // const ipfsNodeAddr = "/ip4/127.0.0.1/tcp/5001"
 // const fgApiUrl = "http://localhost:3020"
-const ipfsNodeAddr = "/dns4/web2.co2.storage/tcp/5002/https"
-const fgApiUrl = "https://co2.storage"
+const ipfsNodeAddr = "/dns4/web1.co2.storage/tcp/5002/https"
+const fgApiUrl = "https://web1.co2.storage"
 ```
 
 11\) Going back to the command line, make sure you're in the folder co2-storage/cli. Then run:
