@@ -18,7 +18,7 @@ CO2.Storage maps inputs to base data schemas [(IPLD DAGs)](https://ipld.io/) for
 
 With IPLD DAGs, data is content addressed using IPFS, meaning the URI pointing to a piece of data (“ipfs://…”) is completely unique to that data (using a [content identifier](https://docs.ipfs.io/concepts/content-addressing/) , or CID). CIDs can be used for environmental assets and metadata to ensure the asset forever actually refers to the intended data (eliminating things like double counting, and making it trustlessly verifiable what content an asset is associated with). These standard, content addressed, data schemas will also enable more seamless cross-referencing for missing data and meta-analysis of different assets/credits, as well as help expedite the development of new forms of methodologies, supply, and marketplaces.
 
-CO2.Storage currently has a [feature rich UI](https://co2.storage/) and a [Javascript API](https://www.npmjs.com/package/@co2-storage/js-api). Additionally, we’ll soon release a Go API and Go Indexer. CO2.Storage currently supports multiple data types, including:
+CO2.Storage currently has a [feature rich UI](https://co2.storage/) and a [Javascript API](https://www.npmjs.com/package/@co2-storage/js-api). Additionally, we’ll soon release a Go API and Go Indexer. The CO2.Storage UI currently supports multiple data types, including (but not limited to):
 
 \-> <mark style="color:green;">`int, integer`</mark>
 
