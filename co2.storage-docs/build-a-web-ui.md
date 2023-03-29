@@ -18,10 +18,10 @@ npm run start
 
 You should see your app when you go to [http://localhost:3000/](http://localhost:3000/)
 
-3\) In the app folder, install the co2-storage javascript package by running:
+3\) In the app folder, install the latest co2-storage javascript package by running:
 
 ```bash
-run npm install --save @co2-storage/js-api
+npm install @co2-storage/js-api@latest --save
 ```
 
 Now in `demo-app/package.json` you should see `co2-storage/js-api` listed under dependencies:
