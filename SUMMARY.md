@@ -48,5 +48,6 @@
   * [🌱 Build a Web UI](co2.storage-docs/build-a-web-ui.md)
   * [🖥 UI Functionality](co2.storage-docs/ui-functionality.md)
   * [⌨ API Functionality](co2.storage-docs/api-functionality.md)
+  * [🎆 Configuring IPFS Nodes](co2.storage-docs/configuring-ipfs-nodes.md)
   * [‼ Questions](co2.storage-docs/troubleshooting.md)
   * [🗺 Development Roadmap](co2.storage-docs/development-roadmap.md)

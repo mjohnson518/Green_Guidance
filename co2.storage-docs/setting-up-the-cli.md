@@ -68,7 +68,7 @@ Go to Dashboard > API Keys. Click on the name of your account, which in the imag
 Test out some of the example scripts in [co2-storage/cli/src/examples](https://github.com/protocol/co2-storage/tree/main/cli/src/examples) to make sure that your environment is set up properly and see how to use the js api!
 
 {% hint style="info" %}
-There are two ways of using the js-api: either with your own IPFS node, or with the IPFS node provided by co2.storage. If you have separately installed IPFS (we recommend you use [Kubo, here](https://github.com/ipfs/kubo/#Install)) you can pass it your own IPFS node. If not, you will have to tell the example scripts to use the co2.storage node using step 10 below.
+There are two ways of using the js-api: either with your own IPFS node, or with the IPFS node provided by co2.storage. If you have separately installed IPFS (we recommend you use [Kubo, here](https://github.com/ipfs/kubo/#Install)) you can pass it your own IPFS node. If not, you will have to tell the example scripts to use the co2.storage node using step 10 below. For more information, see Configuring IPFS Nodes.
 {% endhint %}
 
 10\) To run search\_templates using the co2.storage ipfs node, first open `search_templates.js` in the examples folder. Comment out lines 5 and 6, which tell the script to use local addresses for the IPFS node and for the FG API. Then un-comment lines 7-8, which will tell the script to use the co2.storage node.&#x20;
