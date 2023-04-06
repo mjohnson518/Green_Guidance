@@ -22,7 +22,7 @@ In this case, because the IPFS node is being run in the browser, the parameters 
 
 ### Client IPFS Nodes
 
-In order to run your own IPFS node and pass it to CO2.storage, you must install IPFS, configure your node, and pass that node to the FGStorage instance. These instructions use MacOSX.
+In order to run your own IPFS node and pass it to CO2.storage, you must install IPFS (we recommend [Kubo](https://github.com/ipfs/kubo/#Install)), configure your node, and pass that node to the FGStorage instance. These instructions use MacOSX.
 
 1\) [Install IPFS](https://docs.ipfs.tech/install/command-line/#install-official-binary-distributions). Instructions for your system type are provided. On the Mac terminal using the current latest version (at time of writing), this looks like:
 
