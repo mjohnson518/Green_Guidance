@@ -8,7 +8,7 @@ description: >-
 
 ## [CID.place](https://cid.place)
 
-[<mark style="color:green;">https://cid.place/bafybeiadla4dm75f4j46r2dhxzixofwqhglshy6brzvmnrcckzeymbmv7i</mark>](https://cid.place/bafybeiadla4dm75f4j46r2dhxzixofwqhglshy6brzvmnrcckzeymbmv7i)<mark style="color:green;"></mark>
+[<mark style="color:green;">https://cid.place/bafybeiadla4dm75f4j46r2dhxzixofwqhglshy6brzvmnrcckzeymbmv7i</mark>](https://cid.place/bafybeiadla4dm75f4j46r2dhxzixofwqhglshy6brzvmnrcckzeymbmv7i)
 
 Find Storage Providers hosting your CIDs:
 
@@ -20,7 +20,7 @@ Find Storage Providers hosting your CIDs:
 
 ## [REC Browser](https://green.filecoin.space/eac-browser/)
 
-[<mark style="color:green;">https://green.filecoin.space/eac-browser/</mark>](https://green.filecoin.space/eac-browser/)<mark style="color:green;"></mark>
+[<mark style="color:green;">https://green.filecoin.space/eac-browser/</mark>](https://green.filecoin.space/eac-browser/)
 
 Browse Renewable Energy Certificates and related metadata:
 
@@ -32,7 +32,7 @@ Browse Renewable Energy Certificates and related metadata:
 
 ## [Metered Energy Consumption](https://green.filecoin.space/metered-energy-consumption/)
 
-[<mark style="color:green;">https://green.filecoin.space/metered-energy-consumption/</mark>](https://green.filecoin.space/metered-energy-consumption/)<mark style="color:green;"></mark>
+[<mark style="color:green;">https://green.filecoin.space/metered-energy-consumption/</mark>](https://green.filecoin.space/metered-energy-consumption/)
 
 Search trough Storage Providers' energy consumption by HW components and racks:
 
@@ -44,11 +44,11 @@ Search trough Storage Providers' energy consumption by HW components and racks:
 
 ## [CSV Export utility](https://green.filecoin.space/audit/)
 
-[<mark style="color:green;">https://green.filecoin.space/audit/</mark>](https://green.filecoin.space/audit/)<mark style="color:green;"></mark>
+[<mark style="color:green;">https://green.filecoin.space/audit/</mark>](https://green.filecoin.space/audit/)
 
 Export Storage Providers' energy consumption:
 
-![](<../.gitbook/assets/Screen Shot 2022-08-04 at 10.32.02 AM (1).png>)
+![](<../.gitbook/assets/Screen Shot 2022-08-04 at 10.32.02 AM.png>)
 
 {% content-ref url="csv-export-utility.md" %}
 [csv-export-utility.md](csv-export-utility.md)

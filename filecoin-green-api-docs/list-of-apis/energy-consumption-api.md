@@ -88,46 +88,46 @@ The Data Model end point is listing all available data models (e.g. Energy inten
 <summary>Available Data Models</summary>
 
 **Energy Intensity:**\
-****Total electrical power used by the Filecoin network divided by data storage Capacity.\
+Total electrical power used by the Filecoin network divided by data storage Capacity.\
 <mark style="color:green;">Model:</mark> <mark style="color:green;"></mark><mark style="color:green;">`"id": 0`</mark> <mark style="color:green;"></mark><mark style="color:green;">or</mark> <mark style="color:green;"></mark><mark style="color:green;">`"code_name": "EnergyIntensityModel"`</mark>
 
 **Renewable Energy Ratio:**\
-****<mark style="color:green;">Model</mark>_<mark style="color:green;">:</mark>_ <mark style="color:green;"></mark><mark style="color:green;">`"id": 1`</mark> <mark style="color:green;"></mark><mark style="color:green;">or</mark> <mark style="color:green;"></mark><mark style="color:green;">`"code_name": "RenewableEnergyRatioModel"`</mark>
+<mark style="color:green;">Model</mark>_<mark style="color:green;">:</mark>_ <mark style="color:green;"></mark><mark style="color:green;">`"id": 1`</mark> <mark style="color:green;"></mark><mark style="color:green;">or</mark> <mark style="color:green;"></mark><mark style="color:green;">`"code_name": "RenewableEnergyRatioModel"`</mark>
 
 **Energy consumption rate (v1.0.1):**\
-****The total rate of electrical energy use. This is the sum of sealing and storage energy use, multiplied by a Power Usage Effectiveness (PUE) representing overhead energy costs such as cooling and power conversion. Bounds and estimate come from combining the bounds and estimates of sealing and storage energy, as well as different values of estimated PUE.\
+The total rate of electrical energy use. This is the sum of sealing and storage energy use, multiplied by a Power Usage Effectiveness (PUE) representing overhead energy costs such as cooling and power conversion. Bounds and estimate come from combining the bounds and estimates of sealing and storage energy, as well as different values of estimated PUE.\
 _Network view:_ Total electrical power used by the Filecoin network.\
 _Storage Provider (SP) view:_ Electrical power used by this SP.\
-****<mark style="color:green;">Model</mark>_<mark style="color:green;">:</mark>_ <mark style="color:green;"></mark><mark style="color:green;">`"id": 2`</mark> <mark style="color:green;"></mark><mark style="color:green;">or</mark> <mark style="color:green;"></mark><mark style="color:green;">`"code_name": "`</mark><mark style="color:green;">TotalEnergyModelv\_1\_0\_1</mark><mark style="color:green;">`"`</mark>
+<mark style="color:green;">Model</mark>_<mark style="color:green;">:</mark>_ <mark style="color:green;"></mark><mark style="color:green;">`"id": 2`</mark> <mark style="color:green;"></mark><mark style="color:green;">or</mark> <mark style="color:green;"></mark><mark style="color:green;">`"code_name": "`</mark><mark style="color:green;">TotalEnergyModelv\_1\_0\_1</mark><mark style="color:green;">`"`</mark>
 
 **Energy used to seal data (v1.0.1):**\
-****[Sealing](https://spec.filecoin.io/systems/filecoin\_mining/sector/sealing/) is the process of generating SNARK proofs for a data sector which will allow an SP to prove that they are continuing to store that data over time, and is one of the components of energy use of the Filecoin network. Energy use due to sealing is estimated by multiplying the increase in storage capacity over a given time period by a constant value as described in the methodology. Bounds and estimate come from different values of this constant.\
+[Sealing](https://spec.filecoin.io/systems/filecoin\_mining/sector/sealing/) is the process of generating SNARK proofs for a data sector which will allow an SP to prove that they are continuing to store that data over time, and is one of the components of energy use of the Filecoin network. Energy use due to sealing is estimated by multiplying the increase in storage capacity over a given time period by a constant value as described in the methodology. Bounds and estimate come from different values of this constant.\
 _Network view:_ Total electrical power used to seal data for the entire Filecoin network.\
 _Storage Provider (SP) view:_ Electrical power used by this SP to seal data.\
 <mark style="color:green;">Model</mark>_<mark style="color:green;">:</mark>_ <mark style="color:green;"></mark><mark style="color:green;">`"id": 3`</mark> <mark style="color:green;"></mark><mark style="color:green;">or</mark> <mark style="color:green;"></mark><mark style="color:green;">`"code_name": "`</mark><mark style="color:green;">SealingEnergyModelv\_1\_0\_1</mark><mark style="color:green;">`"`</mark>
 
 **Energy used to store data (v1.0.1):**\
-****The energy used to store data over time, which is a component of the energy used by the Filecoin network. Storage energy use is estimated by multiplying storage capacity by a constant value. Bounds and estimate come from different values of this constant.\
+The energy used to store data over time, which is a component of the energy used by the Filecoin network. Storage energy use is estimated by multiplying storage capacity by a constant value. Bounds and estimate come from different values of this constant.\
 _Network view:_ Total electrical power used to store all data on the Filecoin network. _Storage Provider (SP) view:_ Electrical power used by this SP to store data.\
-****<mark style="color:green;">Model</mark>_<mark style="color:green;">:</mark>_ <mark style="color:green;"></mark><mark style="color:green;">`"id": 4`</mark> <mark style="color:green;"></mark><mark style="color:green;">or</mark> <mark style="color:green;"></mark><mark style="color:green;">`"code_name": "`</mark><mark style="color:green;">StorageEnergyModelv\_1\_0\_1</mark><mark style="color:green;">`"`</mark>
+<mark style="color:green;">Model</mark>_<mark style="color:green;">:</mark>_ <mark style="color:green;"></mark><mark style="color:green;">`"id": 4`</mark> <mark style="color:green;"></mark><mark style="color:green;">or</mark> <mark style="color:green;"></mark><mark style="color:green;">`"code_name": "`</mark><mark style="color:green;">StorageEnergyModelv\_1\_0\_1</mark><mark style="color:green;">`"`</mark>
 
 **Cumulative Energy Use (v1.0.1):**\
-****Total amount of energy used during a time period in kWh.\
-****<mark style="color:green;">Model</mark>_<mark style="color:green;">:</mark>_ <mark style="color:green;"></mark><mark style="color:green;">`"id": 5`</mark> <mark style="color:green;"></mark><mark style="color:green;">or</mark> <mark style="color:green;"></mark><mark style="color:green;">`"code_name": "`</mark><mark style="color:green;">CumulativeEnergyModel\_v\_1\_0\_1</mark><mark style="color:green;">`"`</mark>
+Total amount of energy used during a time period in kWh.\
+<mark style="color:green;">Model</mark>_<mark style="color:green;">:</mark>_ <mark style="color:green;"></mark><mark style="color:green;">`"id": 5`</mark> <mark style="color:green;"></mark><mark style="color:green;">or</mark> <mark style="color:green;"></mark><mark style="color:green;">`"code_name": "`</mark><mark style="color:green;">CumulativeEnergyModel\_v\_1\_0\_1</mark><mark style="color:green;">`"`</mark>
 
 **Cumulative renewable energy purchases:**\
-****Cumulative renewable energy certificate (REC) purchases over time.\
-****<mark style="color:green;">Model</mark>_<mark style="color:green;">:</mark>_ <mark style="color:green;"></mark><mark style="color:green;">`"id": 6`</mark> <mark style="color:green;"></mark><mark style="color:green;">or</mark> <mark style="color:green;"></mark><mark style="color:green;">`"code_name": "`</mark><mark style="color:green;">RenewableEnergyModel</mark><mark style="color:green;">`"`</mark>
+Cumulative renewable energy certificate (REC) purchases over time.\
+<mark style="color:green;">Model</mark>_<mark style="color:green;">:</mark>_ <mark style="color:green;"></mark><mark style="color:green;">`"id": 6`</mark> <mark style="color:green;"></mark><mark style="color:green;">or</mark> <mark style="color:green;"></mark><mark style="color:green;">`"code_name": "`</mark><mark style="color:green;">RenewableEnergyModel</mark><mark style="color:green;">`"`</mark>
 
 **Data storage capacity added per day:**\
-****_Network view:_ New data storage capacity added to Filecoin’s decentralized storage network (sealed) per day.\
+_Network view:_ New data storage capacity added to Filecoin’s decentralized storage network (sealed) per day.\
 _Storage Provider (SP) view:_ The amount of new data storage contributed to the network (sealed) by this SP per day.\
-****<mark style="color:green;">Model</mark>_<mark style="color:green;">:</mark>_ <mark style="color:green;"></mark><mark style="color:green;">`"id": 7`</mark> <mark style="color:green;"></mark><mark style="color:green;">or</mark> <mark style="color:green;"></mark><mark style="color:green;">`"code_name": "`</mark><mark style="color:green;">SealedModel</mark><mark style="color:green;">`"`</mark>
+<mark style="color:green;">Model</mark>_<mark style="color:green;">:</mark>_ <mark style="color:green;"></mark><mark style="color:green;">`"id": 7`</mark> <mark style="color:green;"></mark><mark style="color:green;">or</mark> <mark style="color:green;"></mark><mark style="color:green;">`"code_name": "`</mark><mark style="color:green;">SealedModel</mark><mark style="color:green;">`"`</mark>
 
 **Data storage capacity:**\
-****_Network view:_ The total amount of data storage capacity contributed to Filecoin’s decentralized storage network, based on on-chain proofs.\
+_Network view:_ The total amount of data storage capacity contributed to Filecoin’s decentralized storage network, based on on-chain proofs.\
 _Storage Provider (SP) view:_ The amount of data storage contributed by this SP, based on on-chain proofs.\
-****<mark style="color:green;">Model</mark>_<mark style="color:green;">:</mark>_ <mark style="color:green;"></mark><mark style="color:green;">`"id": 8`</mark> <mark style="color:green;"></mark><mark style="color:green;">or</mark> <mark style="color:green;"></mark><mark style="color:green;">`"code_name": "`</mark><mark style="color:green;">CapacityModel</mark><mark style="color:green;">`"`</mark>
+<mark style="color:green;">Model</mark>_<mark style="color:green;">:</mark>_ <mark style="color:green;"></mark><mark style="color:green;">`"id": 8`</mark> <mark style="color:green;"></mark><mark style="color:green;">or</mark> <mark style="color:green;"></mark><mark style="color:green;">`"code_name": "`</mark><mark style="color:green;">CapacityModel</mark><mark style="color:green;">`"`</mark>
 
 </details>
 

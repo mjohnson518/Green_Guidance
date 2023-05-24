@@ -6,9 +6,9 @@ description: >-
 
 # 📩 CSV Export utility
 
-[<mark style="color:green;">https://green.filecoin.space/audit/</mark>](https://green.filecoin.space/audit/)<mark style="color:green;"></mark>
+[<mark style="color:green;">https://green.filecoin.space/audit/</mark>](https://green.filecoin.space/audit/)
 
-![](<../.gitbook/assets/Screen Shot 2022-08-04 at 10.32.02 AM (1).png>)
+![](<../.gitbook/assets/Screen Shot 2022-08-04 at 10.32.02 AM.png>)
 
 {% embed url="https://green.filecoin.space/audit/" %}
 

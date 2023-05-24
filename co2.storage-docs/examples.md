@@ -27,7 +27,7 @@ To access the data using the co2.storage UI follow these steps:
 
 1\) Go to [co2.storage](https://co2.storage/) and click on "Assets" in the upper right hand corner.
 
-<figure><img src="../.gitbook/assets/Screenshot 2023-03-12 at 7.48.14 PM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Screenshot 2023-03-12 at 7.48.14 PM" alt=""><figcaption></figcaption></figure>
 
 2\) If you get a login error, connect your Metamask wallet to co2.storage to log in.
 

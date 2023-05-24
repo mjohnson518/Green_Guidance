@@ -23,7 +23,7 @@ Example:
 
 [`https://green.filecoin.space/minerid-peerid/api/v1/peer-id?miner_id=f01234`](https://green.filecoin.space/minerid-peerid/api/v1/peer-id?miner_id=f01234)
 
-``
+
 {% endswagger-description %}
 
 {% swagger-parameter in="query" name="miner_id" type="String" %}
@@ -61,7 +61,7 @@ Example:
 
 [`https://green.filecoin.space/minerid-peerid/api/v1/miner-id?peer_id=12D3KooWPWJemjphGa2pANr6j7HCaLyjUvCroHyTJsATY6TaCFAF`](https://green.filecoin.space/minerid-peerid/api/v1/miner-id?peer_id=12D3KooWPWJemjphGa2pANr6j7HCaLyjUvCroHyTJsATY6TaCFAF)
 
-``
+
 {% endswagger-description %}
 
 {% swagger-parameter in="query" name="peer_id" type="String" %}

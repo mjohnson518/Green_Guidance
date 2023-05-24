@@ -1,4 +1,4 @@
-# 🏗 API Functionality
+# ⌨ API Functionality
 
 Co2.Storage has a Javascript API, which enables users to interact with data schemas and assets in a number of ways. The API is available on NPM here: [CO2.Storage API](https://www.npmjs.com/package/@co2-storage/js-api). Below are descriptions of the various API endpoints:
 
