@@ -2,7 +2,7 @@
 
 Create, mint, and deploy an NFT to decarbonize your travel using Co2.storage, the FVM Hyperspace Testnet & Remix:
 
-#### Overview
+## Overview
 
 1. Create your Decarbonized Travel Asset using [form.co2.storage. ](https://form.co2.storage/bafyreieix4zyonwaxh4xjz4yh3qen5x35fhhwgm5vtnyn4svzms4wqxpl4?metadata=false)
 2. Connect to the Filecoin Hyperspace testnet & get some TFIL from the faucet
@@ -28,7 +28,7 @@ Connect to the Filecoin Hyperspace testnet & get some TFIL from the faucet&#x20;
 
 We need to point your wallet to the Filecoin Network, specifically the [Hyperspace testnet. ](https://docs.filecoin.io/networks/hyperspace/details/)We’ll use a website called [chainlist.org](http://chainlist.org) to give MetaMask the information it needs quickly.
 
-### Connect to the Filecoin Hyperspace testnet
+#### Connect to the Filecoin Hyperspace testnet
 
 1. Go to [chainlist.org](https://chainlist.org/) & enable the Testnets toggle and enter <mark style="background-color:yellow;">**Filecoin**</mark> into the search bar.
 
@@ -72,7 +72,7 @@ You should see the Filecoin Hyperspace testnet listed at the top. Now that we’
 {% endtab %}
 {% endtabs %}
 
-### &#x20;Get some TFIL from the faucet:
+#### &#x20;Get some TFIL from the faucet:
 
 Test-filecoin (**TFIL**) is **FIL** that has no value in the real world, and developers use it for testing. We’ll grab some **TFIL** now.
 
@@ -109,7 +109,7 @@ Open MetaMask to confirm that you received the tFIL:\
 {% endtab %}
 {% endtabs %}
 
-### Create a DecarbonizedTravelNFT Contract in Solidity
+## Create a DecarbonizedTravelNFT Contract in Solidity
 
 The DecarbonizedTravelNFT Smart Contract is based on Open Zeppelin's implementation of ERC721 but uses the ERC721URIStorage version, which includes the metadata standard extensions (so we can pass in our IPFS-addressed metadata - which we've saved on CO2.Storage, to the contract).
 
@@ -210,7 +210,7 @@ contract DecentralizedTravelNFT is ERC721, ERC721Enumerable, ERC721URIStorage, O
 ```
 {% endcode %}
 
-### Deploy the DecarbonizedTravelNFT Contract to the Filecoin Virtual Machine (FVM) Hyperspace Testnet
+## Deploy the DecarbonizedTravelNFT Contract to the Filecoin Virtual Machine (FVM) Hyperspace Testnet
 
 #### &#x20;Requirements
 
@@ -329,7 +329,7 @@ On the Filecoin network, a new set of blocks, also called a tipset, is created e
 {% endtab %}
 {% endtabs %}
 
-### Interact with the DecarbonizedTravelNFT Contract & mint your NFT
+## Interact with the DecarbonizedTravelNFT Contract & mint your NFT
 
 Now that we’ve compiled and deployed the contract, it’s time to actually interact with it! We’re going to call a method within the deployed contract to mint an NFT.
 
