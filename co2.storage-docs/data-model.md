@@ -37,6 +37,7 @@ An example of this data model is <mark style="color:green;">**Asset:**</mark> [b
 As shown above, assets link data in a payload to the datatype associated with that data. The asset itself contains some additional metadata. Its attributes are:
 
 * **cid**: this is the CID of the actual data we are describing; the 'payload' of the asset data
+* **type:** the CID of a type as defined above
 * **name**: a short label for this asset
 * **version**: version of the transform.storage protocol, in this case "1.0.0"
 * **parent** (optional): null for v1.0.0
