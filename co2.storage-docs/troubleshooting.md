@@ -54,6 +54,8 @@ You can also implement arrays of arrays, if you prefer this style:
 ]
 ```
 
+See the [Template Author's Guide](template-authors-guide.md) for more info on how to write templates.
+
 ## Troubleshooting
 
 This project should be considered an alpha release. The [Filecoin Green](https://green.filecoin.io/) team is actively working on this project and welcomes contributions from the community.\
