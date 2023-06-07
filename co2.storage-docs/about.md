@@ -2,9 +2,9 @@
 
 ## About
 
-[CO2.Storage](https://co2.storage) is a decentralized storage solution for structured data based on content addressed data schemas. CO2.Storage primarily focuses on structured data for environmental assets, such as Renewable Energy Credits, Carbon Offsets, and geospatial datasets.  This focus stems from our realization that the budding Refi space, and tokenized carbon credits in particular, would benefit from the development of standard data schemas for environmental assets.
+[CO2.Storage](https://co2.storage) is a decentralized storage solution for structured data based on content addressed data schemas. CO2.Storage primarily focuses on structured data for environmental assets, such as Renewable Energy Credits, Carbon Offsets, and geospatial datasets. This focus stems from our realization that the budding Refi space, and tokenized carbon credits in particular, would benefit from the development of standard data schemas for environmental assets.
 
-This project is in *alpha*, and while many features can be considered stable, we are waiting until we are feature complete to fully launch. The [Filecoin Green](https://green.filecoin.io/) team is actively working on this project and welcomes contributions from the community.
+This project is in _alpha_, and while many features can be considered stable, we are waiting until we are feature complete to fully launch. The [Filecoin Green](https://green.filecoin.io/) team is actively working on this project and welcomes contributions from the community.
 
 We are seeking input to encourage standardization and reduce fragmentation of data schemas across the Refi space. To publicly discuss and crowd-source data schemas for CO2.Storage, please visit: [CO2.Storage Schemas Repo](https://github.com/protocol/co2\_storage\_schemas).
 
@@ -13,6 +13,8 @@ We are also actively seeking input on features from industry participants and in
 Data made available through CO2.storage is provided by users, and not verified by Filecoin Green.
 
 ## Data Primitives
+
+If you're looking for information on primitives to use for writing schemas, check out the [Template Author's Guide](template-authors-guide.md).
 
 CO2.Storage maps inputs to base data schemas [(IPLD DAGs)](https://ipld.io/) for off-chain data (like metadata, images, attestation documents, and other assets) to promote the development of standard data schemas for environmental assets.
 
