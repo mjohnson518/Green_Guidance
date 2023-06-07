@@ -22,7 +22,7 @@ Templates are central to the [data model](https://filecoin-green.gitbook.io/file
 
 You should see a page like this, where I've chosen the "sandbox" indexing chain:
 
-<figure><img src="../.gitbook/assets/Screenshot 2023-06-07 at 2.51.04 PM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Screenshot 2023-06-07 at 4.56.36 PM.png" alt=""><figcaption></figcaption></figure>
 
 3\) If you want to modify an existing template, select it from the list by clicking on its name. If you want to start from scratch, click "Create New Template".&#x20;
 
