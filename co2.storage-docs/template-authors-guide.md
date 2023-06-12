@@ -144,7 +144,7 @@ You can copy the schema address of the [car template](https://www.co2.storage/te
 
 The lower CID is the [template](data-model.md).
 
-You can then use the schema CIT in a field of a new Template with the type **template** or **schema**. As an example, see this [garage template](https://www.co2.storage/templates/bafyreibdimefxwqr6455fopzm75jdictupe3oxptofpiaeiypzg5trqvmq) with the schema:
+You can then use the schema CID in a field of a new Template with the type **template** or **schema**. As an example, see this [garage template](https://www.co2.storage/templates/bafyreibdimefxwqr6455fopzm75jdictupe3oxptofpiaeiypzg5trqvmq) with the schema:
 
 ```json
 {
