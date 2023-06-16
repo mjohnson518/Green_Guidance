@@ -45,3 +45,60 @@ As shown above, assets link data in a payload to the datatype associated with th
 * **timestamp** (optional): UTC timestamp when this asset was created
 * **description** (optional): longer label for this asset
 * **protocol\_name**: transform.storage
+
+## **Provenance Data Model**
+
+Any data can be signed by a contributor as part of a Provenance Protocol community, as shown.&#x20;
+
+<figure><img src="../.gitbook/assets/Screenshot 2023-06-15 at 10.10.58 PM.png" alt=""><figcaption></figcaption></figure>
+
+The format for these provenance messages is:
+
+Message B:
+
+{
+
+&#x20;    “protocol” : “provenance protocol”,
+
+&#x20;  “version” : “1.0.0”,
+
+&#x20;   "provenance\_message" : \<CID of Message A>,
+
+&#x20;   “signature” : \<sign CID of Message A>,
+
+&#x20;   “contributor\_key” : \<key of message signer>,
+
+&#x20;   “method” : “eth\_signTypedData\_v4”,
+
+&#x20;  “verifying\_contract” : “0x7c75AA9001c4…”,
+
+&#x20;  “chain\_id” : “0x1”
+
+}
+
+\
+
+
+Message A:
+
+{
+
+&#x20;  “protocol” : “provenance protocol”,
+
+&#x20;  “version” : “1.0.0”,
+
+&#x20;  “data\_license” : \<from account>,
+
+&#x20;  “provenance\_community”: \<name of community>,
+
+&#x20;  “contributor\_name” : \<name of contributor>,
+
+&#x20;  “contributor\_key” : \<key of message signer>,
+
+&#x20;  “payload” : \<CID of Data / Type / Asset>,
+
+&#x20;   “notes”: null
+
+}
+
+\
