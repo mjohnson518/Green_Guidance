@@ -1,6 +1,6 @@
-# ‼ Questions
+# ‼ FAQ
 
-## How do I get template fields to display in a given order?
+### How do I get template fields to display in a given order?
 
 The default is to define your template schema as an unordered object, using curly brackets `{` :
 
@@ -56,7 +56,11 @@ You can also implement arrays of arrays, if you prefer this style:
 
 See the [Template Author's Guide](template-authors-guide.md) for more info on how to write templates.
 
-## Troubleshooting
+### How does CO2.Storage deal with large files?
+
+As of [v1.2.28](https://www.npmjs.com/package/@co2-storage/js-api), primitives of the `documents` and `images` types (see [Template Author's Guide](template-authors-guide.md)) are uploaded as file streams. Slices of these steams are uploaded to IPFS and assembled as IPLD DAGs.&#x20;
+
+### Troubleshooting
 
 This project should be considered an alpha release. The [Filecoin Green](https://green.filecoin.io/) team is actively working on this project and welcomes contributions from the community.\
 \

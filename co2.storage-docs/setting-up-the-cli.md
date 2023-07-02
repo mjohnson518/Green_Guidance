@@ -24,6 +24,8 @@ cd cli
 npm install
 ```
 
+For reference, see the npm package [co2-storage/js-api](https://www.npmjs.com/package/@co2-storage/js-api)
+
 ## Set Up Environment Variables
 
 4\) In `co2-storage/cli`, you should find a file named `.env.example`. Copy it, and rename to `.env`

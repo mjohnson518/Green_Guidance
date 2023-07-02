@@ -50,6 +50,6 @@
   * [🖥 UI Functionality](co2.storage-docs/ui-functionality.md)
   * [⌨ API Functionality](co2.storage-docs/api-functionality.md)
   * [🎆 Configuring IPFS Nodes](co2.storage-docs/configuring-ipfs-nodes.md)
-  * [‼ Questions](co2.storage-docs/troubleshooting.md)
+  * [‼ FAQ](co2.storage-docs/troubleshooting.md)
   * [🗺 Development Roadmap](co2.storage-docs/development-roadmap.md)
   * [🗻 Decarbonize Your Travel](co2.storage-docs/decarbonize-your-travel.md)
