@@ -60,6 +60,8 @@ See the [Template Author's Guide](template-authors-guide.md) for more info on ho
 
 As of [v1.2.28](https://www.npmjs.com/package/@co2-storage/js-api), primitives of the `documents` and `images` types (see [Template Author's Guide](template-authors-guide.md)) are uploaded as file streams. Slices of these steams are uploaded to IPFS and assembled as IPLD DAGs.&#x20;
 
+For working with large files using the UI, we recommend using the Chrome, Opera or Edge browsers. These browsers support `window.showSaveFilePicker()` which allows file streams.
+
 ### Troubleshooting
 
 This project should be considered an alpha release. The [Filecoin Green](https://green.filecoin.io/) team is actively working on this project and welcomes contributions from the community.\
