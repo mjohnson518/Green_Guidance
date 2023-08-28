@@ -102,7 +102,7 @@ Add optional fields to an element in your template schema for additional control
 
 **mandatory**: set to **true** / **false** based on whether this field is required
 
-**value**: give your field a default value
+**value**: give your field a default value. If the user does nothing, this will become the field value in the asset.
 
 As an example of these options in use, see [this template](https://www.co2.storage/templates/bafyreihgvw3qb57gw3pm4y6avrhiydft7eq22bhuet2f5kpcv52ab6afeu) with the schema:
 
@@ -111,6 +111,20 @@ As an example of these options in use, see [this template](https://www.co2.stora
   "My Field": {
     "type": "string",
     "value": "Default Value",
+    "mandatory": true
+  }
+}
+```
+
+**placeholder**: give your field a note which appears in the text field, but is not a default value. If the user does nothing, this will not become the field value.
+
+As an example of a placeholder, see [this template](https://www.co2.storage/templates/bafyreidhvd6x4cjzhbtgijgqhw23scag4iyjazhr53ubik2isehppiloce) with the schema:
+
+```json
+{
+  "My Field": {
+    "type": "string",
+    "placeholder": "Note that is not a value",
     "mandatory": true
   }
 }
