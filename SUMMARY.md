@@ -54,3 +54,4 @@
   * [‼ FAQ](co2.storage-docs/troubleshooting.md)
   * [🗺 Development Roadmap](co2.storage-docs/development-roadmap.md)
   * [🗻 Decarbonize Your Travel](co2.storage-docs/decarbonize-your-travel.md)
+  * [💡 Energy Validation Process (EVP) Schema](co2.storage-docs/energy-validation-process-evp-schema.md)
