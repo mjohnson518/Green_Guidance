@@ -40,6 +40,8 @@ We're going to use the `.env` file to store private keys. If handled properly, t
 
 6\) Get "PK" from Metamask. In the browser plugin, go to menu > Account details > Export Private Key. Metamask will ask you for your account password. Copy the Metamask private key into PK in the .env file.
 
+If your private key doesn't start with '0x' then append this at the beginning. **This was not required with previous package versions, but is now.**
+
 <div>
 
 <figure><img src="../.gitbook/assets/Screenshot 2023-03-15 at 5.19.51 PM.png" alt=""><figcaption></figcaption></figure>
