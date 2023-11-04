@@ -62,6 +62,17 @@ As of [v1.2.28](https://www.npmjs.com/package/@co2-storage/js-api), primitives o
 
 For working with large files using the UI, we recommend using the Chrome, Opera or Edge browsers. These browsers support `window.showSaveFilePicker()` which allows file streams.
 
+### Authentication Error
+
+```
+code: 500,
+message: 'Error whilst requesting "privateKeyToAccount" method. InvalidPrivateKeyError: Invalid Private Key, Not a valid string or uint8Array'
+```
+
+Make sure your PK starts with `0x` as described [here](setting-up-the-cli.md#set-up-environment-variables).
+
+
+
 ### Troubleshooting
 
 This project should be considered an alpha release. The [Filecoin Green](https://green.filecoin.io/) team is actively working on this project and welcomes contributions from the community.\
